@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cat1 {
+  width: 400px;
+}
+
+.cat2 {
+  width: 50%;
+}
+
+.cat3 {
+  width: 20em;
+}
+
+.cat4 {
+  width: 40rem;
+}
+
+.cat5 {
+  width: 35vw;
+}
+
+.cat6 {
+  height: 75vh;
+}

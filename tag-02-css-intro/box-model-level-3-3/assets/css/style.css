@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  font-family: "Cinzel", Arial;
+  font-weight: 700;
+  font-size: 18px;
+  color: #999999;
+  margin-top: 12px;
+  margin-left: 100px;
+}
+
+.background {
+  background-image: url("../img/alps.png");
+  background-size: cover;
+  background-position: center;
+  height: 803px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1440px) {
+  .background {
+    height: 577px;
+  }
+}
+
+.background p {
+  font-family: "Cinzel", Arial;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.content {
+  text-align: center;
+  height: 344px;
+}
+
+.content p {
+  color: #333333;
+}
+
+.content p:first-of-type {
+  font-family: "Cinzel", Arial;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.content p:last-of-type {
+  font-family: "Poppins", Arial;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  place-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.tour-dates {
+  text-align: center;
+}
+
+.tour-dates p {
+  color: #333333;
+  font-family: "Cinzel", Arial;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.tour-dates ul {
+  text-align: left;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  margin-left: 108px;
+  padding: 0 0 20px 20px;
+  list-style-type: none;
+  font-family: "Poppins", Arial;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tour-dates ul .sold-out::after {
+  content: "SOLD OUT";
+  color: red;
+  margin-left: 0.25em;
+}
+
+.tour-dates ul .only-x-left::after {
+  content: "ONLY 4 SPOT AVAILABLE";
+  color: red;
+  margin-left: 0.25em;
+}
+
+.tour-dates ul .available::after {
+  content: "AVAILABLE";
+  color: green;
+  margin-left: 0.25em;
+}
+
+footer {
+  border-top: 1px solid #cccccc;
+  height: 172px;
+}
+
+footer p {
+  font-family: "Cinzel", Arial;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer .social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .fa-brands {
+  color: #333333;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.15s ease;
+}
+
+footer .fa-brands:hover {
+  background-color: rgba(51, 51, 51, 0.15);
+}

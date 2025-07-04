@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple: #5c3cdc;
+  --green: #4febac;
+}
+
+@font-face {
+  font-family: "Bitcount";
+  src: url("../fonts/BitcountGridDouble-VariableFontwght.ttf");
+}
+
+@font-face {
+  font-family: "Chicle";
+  src: url("../fonts/Chicle-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Funnel";
+  src: url("../fonts/FunnelDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("../fonts/Lexend-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.5rem;
+  background-color: var(--purple);
+  color: var(--green);
+  width: 50%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+p {
+  margin-top: 0.5rem;
+  width: 50%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.element1,
+.element2,
+.element4 {
+  color: var(--purple);
+}
+
+.element1 {
+  font-family: "Bitcount", sans-serif;
+  font-size: 1.5rem;
+}
+
+.element2 {
+  font-family: "Chicle", sans-serif;
+  font-size: 2rem;
+}
+
+.element3 {
+  font-family: "Funnel", sans-serif;
+  font-size: 3rem;
+  background-color: var(--green);
+  color: white;
+}
+
+.element4 {
+  font-family: "Lexend", sans-serif;
+  font-size: 1.5rem;
+}
+
+.element5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background-color: var(--purple);
+  color: var(--green);
+}

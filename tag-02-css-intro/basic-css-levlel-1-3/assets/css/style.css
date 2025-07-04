@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #808080;
+  margin: 20px 10px;
+}
+
+nav a {
+  margin-left: 40px;
+}
+
+a {
+  color: #e15127;
+  display: block;
+}
+
+section a {
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+span {
+  color: red;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  margin: 10px 0;
+}
+
+.unsplash-image-1 {
+  width: 400px;
+  height: 400px;
+}
+
+.unsplash-image-2 {
+  width: 600px;
+  height: 600px;
+}
+
+.unsplash-image-3 {
+  width: 800px;
+  height: 600px;
+}
