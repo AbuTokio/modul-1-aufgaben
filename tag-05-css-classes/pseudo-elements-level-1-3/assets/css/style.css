@@ -12,10 +12,6 @@ ul {
   font-weight: bold;
 }
 
-li {
-  /* margin-bottom: 4px; */
-}
-
 li::before {
   display: inline-block;
   vertical-align: middle;
