@@ -1,0 +1,50 @@
+html {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.backgrounds,
+.backgrounds-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgrounds div,
+.backgrounds-2 div {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.backgrounds div:nth-of-type(1) {
+  background-color: gold;
+}
+
+.backgrounds div:nth-of-type(2) {
+  background-image: url("https://images.unsplash.com/photo-1522781063645-d5e4fb3e19aa?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgrounds div:nth-of-type(3) {
+  background-image: linear-gradient(to right, gold, black);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgrounds-2 div:nth-of-type(1) {
+  background: linear-gradient(60deg, gold, black) no-repeat center center;
+}
+
+.backgrounds-2 div:nth-of-type(2) {
+  background: radial-gradient(circle, black 0%, gold 50%, black 100%);
+}
+
+.backgrounds-2 div:nth-of-type(3) {
+  background: radial-gradient(circle, gold 30%, black 100%);
+}
