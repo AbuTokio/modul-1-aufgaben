@@ -1,0 +1,73 @@
+/* - Benutze diese Farben:
+    - #a020f0
+    - #00bfff
+    - #32cd32
+    - #c71585
+    - #00ced1
+    - #483d8b
+    - #2e8b57
+- Benutze diese Befehle:
+    - ::first-line
+    - ::first-letter
+- Evtl. benötigst du:
+    - ::before
+    - ::after
+    - ::selection */
+
+body {
+  font-weight: bold;
+}
+
+h3:first-letter {
+  color: #2e8b57;
+  font-size: 3em;
+}
+
+h3:hover::first-letter {
+  color: #00ced1;
+}
+
+li::first-letter {
+  font-size: 2em;
+}
+
+li:nth-of-type(1)::first-letter {
+  text-decoration: overline;
+  color: #00ced1;
+}
+
+li:nth-of-type(2)::first-letter {
+  text-decoration: underline;
+  color: #c71585;
+}
+
+li:nth-of-type(3)::first-letter {
+  text-decoration: line-through;
+  color: #32cd32;
+}
+
+li:nth-of-type(3) {
+  text-decoration: line-through;
+}
+
+#yogurt {
+  color: #483d8b;
+  text-indent: 40px;
+}
+
+.text::first-line {
+  color: darkgreen;
+}
+
+.text:hover::first-line {
+  color: blue;
+}
+
+.text::first-letter {
+  color: darkred;
+  font-size: 2em;
+}
+
+.text:nth-last-of-type(odd) {
+  font-size: 1.3em;
+}
