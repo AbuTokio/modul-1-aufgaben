@@ -55,6 +55,10 @@ li:nth-of-type(3) {
   text-indent: 40px;
 }
 
+#yogurt::first-line {
+  font-size: 1.3em;
+}
+
 .text::first-line {
   color: darkgreen;
 }
