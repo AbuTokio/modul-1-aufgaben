@@ -1,0 +1,87 @@
+h1::first-letter {
+  color: #00796b;
+  font-size: 3em;
+}
+
+h1:hover::first-letter {
+  color: #4fc3f7;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li {
+  /* margin-bottom: 4px; */
+}
+
+li::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+li::after {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.in-progress {
+  background-color: #4fc3f7;
+}
+
+.future-task {
+  text-decoration: underline;
+}
+
+.completed::before {
+  background-image: url("../img/check.png");
+}
+
+.in-progress::before {
+  background-image: url("../img/doing.png");
+}
+
+.future-task::before {
+  background-image: url("../img/no.png");
+}
+
+li:nth-of-type(1)::after {
+  background-image: url("../img/gym.png");
+}
+
+li:nth-of-type(2)::after {
+  background-image: url("../img/bill.png");
+}
+
+li:nth-of-type(3)::after {
+  background-image: url("../img/dance.png");
+}
+
+li:nth-of-type(4)::after {
+  background-image: url("../img/eat.png");
+}
+
+li:nth-of-type(5)::after {
+  background-image: url("../img/book.png");
+}
+
+li:nth-of-type(6)::after {
+  background-image: url("../img/organize.png");
+}
