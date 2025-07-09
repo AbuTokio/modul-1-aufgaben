@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgc: #1f2c33;
+  --primary: #3bb479;
+  --secondary: #58df40;
+  --link: #2d5d26;
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+fieldset {
+  border: none;
+  background-color: var(--bgc);
+  padding: 20px 20px 40px 20px;
+  margin: 50px auto;
+  max-width: 500px;
+  color: white;
+}
+
+.buttons__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  padding: 24px 50px;
+  width: 50%;
+}
+
+.login_btn {
+  background-color: var(--bgc);
+  cursor: pointer;
+}
+
+.login_btn:hover {
+  background-color: var(--secondary);
+}
+
+.signup_btn {
+  background-color: var(--primary);
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 10px;
+  margin-bottom: 36px;
+  background-color: var(--bgc);
+}
+
+.name {
+  display: initial;
+  width: 48%;
+}
+
+#lastname {
+  margin-left: 3%;
+}
+
+.submit_btn {
+  background-color: var(--primary);
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  width: 100%;
+}

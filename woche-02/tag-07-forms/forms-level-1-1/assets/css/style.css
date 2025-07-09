@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin: 20px auto;
+}
+
+fieldset {
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  max-width: 500px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#firstname {
+  margin-right: 1%;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
+
+section {
+  margin: 10px 0;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 6px 8px;
+}
+
+input[type="text"] {
+  width: 49%;
+}
+
+button {
+  width: 100%;
+  padding: 8px 0;
+  background: #4a99ac;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #0a193e;
+}
