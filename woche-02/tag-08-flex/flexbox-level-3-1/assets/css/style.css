@@ -130,12 +130,12 @@ section p {
 
 .container__buttons a .button__read-more {
   background-color: #745cf9;
-  border: 2px solid #745cf9;
+  border: none;
   transition: 0.3s ease;
 }
 
 .container__buttons a .button__read-more:hover {
-  opacity: 0.6;
+  background-color: #745cf990;
 }
 
 .container__buttons a .button__download-now {
