@@ -35,13 +35,20 @@
   line-height: 2rem;
 }
 
-.main-page article {
+.description {
   padding: 2vh 2vw;
   width: 50vw;
 }
 
-.images {
+.image-article {
+  width: 50vw;
+}
+
+.image-wrapper {
   background: url("../img/104_2_dieter_rams_the_jf_chen_co.jpg") center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 2vh 2vw;
 }
 
 .curent-page {
@@ -80,6 +87,10 @@ footer section {
   height: 120px;
   width: 120px;
   cursor: pointer;
+}
+
+.left-arrow {
+  background-color: #f3f3f3;
 }
 
 .right-arrow {

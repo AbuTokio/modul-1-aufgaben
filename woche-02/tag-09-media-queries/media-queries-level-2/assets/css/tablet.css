@@ -2,16 +2,21 @@
   .main-page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 140vh;
   }
 
-  .main-page article {
+  .image-wrapper {
     padding: 4vh 4vw;
-    width: 100vw;
   }
 
   .description {
+    padding: 4vh 4vw;
+    width: 100vw;
     margin-bottom: 10vh;
+  }
+
+  .image-wrapper {
+    padding: 4vh 4vw;
   }
 
   .description h1 {
@@ -24,7 +29,8 @@
     width: 75%;
   }
 
-  .images {
+  .image-article {
     height: 100vh;
+    width: 100vw;
   }
 }
