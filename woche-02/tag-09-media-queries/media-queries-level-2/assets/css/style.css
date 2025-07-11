@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.ttf");
+}
+
+:root {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.main-page {
+  height: 90vh;
+  display: flex;
+}
+
+.description h2 {
+  font-size: 0.8rem;
+}
+
+.description h1 {
+  margin-top: 25vh;
+  font-size: 3rem;
+}
+
+.description p {
+  margin-top: 5vh;
+  color: #767676;
+  width: 50%;
+  line-height: 2rem;
+}
+
+.main-page article {
+  padding: 2vh 2vw;
+  width: 50vw;
+}
+
+.images {
+  background: url("../img/104_2_dieter_rams_the_jf_chen_co.jpg") center/cover no-repeat;
+}
+
+.curent-page {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 1vh;
+  padding: 0 2vh;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  justify-content: space-between;
+}
+
+.social-media-icons img {
+  height: 20px;
+  margin-right: 1vh;
+  cursor: pointer;
+}
+
+.page-arrows {
+  display: flex;
+}
+
+footer section {
+  width: 240px;
+}
+
+.page-arrows button {
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.right-arrow {
+  background-color: black;
+  color: white;
+}
+
+.info h3 {
+  text-align: right;
+}
+
+.info p {
+  text-align: right;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .main-page article {
+    padding: 4vh 4vw;
+    width: 100vw;
+  }
+
+  .description {
+    margin-bottom: 10vh;
+  }
+
+  .description h1 {
+    margin-top: 5vh;
+    font-size: 3rem;
+  }
+
+  .description p {
+    line-height: 1.7rem;
+    width: 75%;
+  }
+
+  .images {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .description {
+    padding: 8vh 8vw;
+  }
+
+  .description h1 {
+    font-size: 2rem;
+  }
+
+  .description p {
+    width: 90%;
+  }
+
+  footer {
+    height: 40px;
+  }
+
+  .social-media-icons img {
+    height: 10px;
+    margin-right: 1vh;
+    cursor: pointer;
+  }
+
+  .page-arrows {
+    display: flex;
+  }
+
+  footer section {
+    width: 240px;
+  }
+
+  .page-arrows button {
+    font-size: 0.8rem;
+    height: 40px;
+    width: 40px;
+  }
+
+  .info h3 {
+    font-size: 0.8rem;
+  }
+
+  .info p {
+    font-size: 0.8rem;
+  }
+
+  .pages {
+    font-size: 0.8rem;
+  }
+  .curent-page {
+    font-size: 1.2rem;
+  }
+}
