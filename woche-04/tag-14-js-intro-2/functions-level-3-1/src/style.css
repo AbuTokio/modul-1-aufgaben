@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --bg-theme-1: #319b5e;
+  --text-theme-1: #79096a;
+  --bg-theme-2: #4f4c7b;
+  --text-theme-2: #dfb74c;
+  --bg-theme-3: #010023;
+  --text-theme-3: #cf6b0b;
+  --bg-theme-4: #04045b;
+  --text-theme-4: #43d4fe;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  color: var(--text-color);
+  margin: 30px auto;
+  text-align: center;
+}
+
+.themes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.themes div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.themes .wrapper {
+  border: 2px solid black;
+  height: 204px;
+  width: 204px;
+}
+
+.themes .wrapper:hover {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+.themes .wrapper div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.themes .wrapper div::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  transform-origin: bottom center;
+  transform: rotate(45deg);
+}
+
+.theme-1 {
+  background: var(--bg-theme-1);
+}
+
+.theme-1::after {
+  background: var(--text-theme-1);
+}
+
+.theme-2 {
+  background: var(--bg-theme-2);
+}
+
+.theme-2::after {
+  background: var(--text-theme-2);
+}
+
+.theme-3 {
+  background: var(--bg-theme-3);
+}
+
+.theme-3::after {
+  background: var(--text-theme-3);
+}
+
+.theme-4 {
+  background: var(--bg-theme-4);
+}
+
+.theme-4::after {
+  background: var(--text-theme-4);
+}
